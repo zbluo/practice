@@ -1,0 +1,3 @@
+/Users/zbing/CLionProjects/DesignStrategy/build/CMakeFiles/rebuild_cache.dir
+/Users/zbing/CLionProjects/DesignStrategy/build/CMakeFiles/edit_cache.dir
+/Users/zbing/CLionProjects/DesignStrategy/build/CMakeFiles/DesignStrategy.dir

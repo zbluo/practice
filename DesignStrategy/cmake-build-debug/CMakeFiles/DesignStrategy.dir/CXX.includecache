@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zbing/CLionProjects/DesignStrategy/ThreadPool.cpp
+thread
+-
+iostream
+-
+sstream
+-
+future
+-
+queue
+-
+condition_variable
+-
+mutex
+-
+

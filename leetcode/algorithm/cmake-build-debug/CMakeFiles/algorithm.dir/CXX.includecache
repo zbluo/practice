@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zbing/Desktop/workspace/lzb/leetcode/algorithm/ProducerConsumer.cpp
+condition_variable
+-
+mutex
+-
+thread
+-
+iostream
+-
+queue
+-
+chrono
+-
+

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="algorithm" targetName="algorithm" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13a5af17-f41a-4618-8142-1427adefa9cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProducerConsumer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReaderWriter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mempool.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cplusplus/Debug.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus/LeetCode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cplusplus/LeetCode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus/LeetCode.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus/LeetCode.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus/Solution.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cplusplus/Solution.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus/Solution.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cplusplus/Solution.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus/Trie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cplusplus/Trie.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus/TrieNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cplusplus/TrieNode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus/stdafx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus/stdafx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus/systemdesign_cards.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cplusplus/systemdesign_cards.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus/systemdesign_cards.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cplusplus/systemdesign_cards.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus/systemdesign_ro.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cplusplus/systemdesign_ro.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus/targetver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus/tweet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cplusplus/tweet.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZBz3VG2487fB3LJYeKxkMMOfkn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RunManager">
+    <configuration name="algorithm" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithm" TARGET_NAME="algorithm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithm" RUN_TARGET_NAME="algorithm">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13a5af17-f41a-4618-8142-1427adefa9cf" name="Default Changelist" comment="" />
+      <created>1576455022255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576455022255</updated>
+      <workItem from="1576455023607" duration="1248000" />
+      <workItem from="1576534652725" duration="449000" />
+      <workItem from="1576805673937" duration="440000" />
+      <workItem from="1578104596850" duration="248000" />
+      <workItem from="1580177224162" duration="468000" />
+      <workItem from="1580957810987" duration="519000" />
+      <workItem from="1581897218082" duration="140000" />
+      <workItem from="1582737452271" duration="2296000" />
+      <workItem from="1583729380835" duration="330000" />
+      <workItem from="1584327077300" duration="1049000" />
+      <workItem from="1584720888086" duration="598000" />
+      <workItem from="1585092128367" duration="390000" />
+      <workItem from="1585199469651" duration="598000" />
+      <workItem from="1585954546928" duration="595000" />
+      <workItem from="1586021303793" duration="597000" />
+      <workItem from="1586103552920" duration="597000" />
+      <workItem from="1586119689881" duration="8579000" />
+      <workItem from="1586449177690" duration="9913000" />
+      <workItem from="1587227721793" duration="1847000" />
+      <workItem from="1587837340103" duration="593000" />
+      <workItem from="1591478599250" duration="1523000" />
+      <workItem from="1592500505077" duration="598000" />
+      <workItem from="1592680950946" duration="598000" />
+      <workItem from="1593040564498" duration="596000" />
+      <workItem from="1593132465094" duration="1325000" />
+      <workItem from="1594142066521" duration="3146000" />
+      <workItem from="1594610425965" duration="461000" />
+      <workItem from="1596322313147" duration="707000" />
+      <workItem from="1596499922425" duration="567000" />
+      <workItem from="1597078563815" duration="816000" />
+      <workItem from="1597785779678" duration="596000" />
+      <workItem from="1598325838213" duration="1811000" />
+      <workItem from="1599944937591" duration="1651000" />
+      <workItem from="1600361728205" duration="1979000" />
+      <workItem from="1600838377871" duration="895000" />
+      <workItem from="1601491276565" duration="3595000" />
+      <workItem from="1603391231064" duration="574000" />
+      <workItem from="1605124382505" duration="1198000" />
+      <workItem from="1605242576353" duration="45000" />
+      <workItem from="1605480680433" duration="607000" />
+      <workItem from="1605674342316" duration="634000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1788" height="282" key="GridCell.Tab.0.bottom" timestamp="1600359818016">
+      <screen x="0" y="23" width="1920" height="1123" />
+    </state>
+    <state width="1867" height="436" key="GridCell.Tab.0.bottom/0.23.1920.1116/-1680.23.1680.1027@0.23.1920.1116" timestamp="1593827210338" />
+    <state width="1867" height="334" key="GridCell.Tab.0.bottom/0.23.1920.1121/-1680.23.1680.1027@0.23.1920.1121" timestamp="1594141275602" />
+    <state width="1788" height="282" key="GridCell.Tab.0.bottom/0.23.1920.1123/-1680.23.1680.1027@0.23.1920.1123" timestamp="1600359818016" />
+    <state width="1788" height="282" key="GridCell.Tab.0.bottom/0.23.1920.1126/-1680.23.1680.1027@0.23.1920.1126" timestamp="1599969109940" />
+    <state width="1788" height="282" key="GridCell.Tab.0.center" timestamp="1600359818002">
+      <screen x="0" y="23" width="1920" height="1123" />
+    </state>
+    <state width="1867" height="436" key="GridCell.Tab.0.center/0.23.1920.1116/-1680.23.1680.1027@0.23.1920.1116" timestamp="1593827210337" />
+    <state width="1867" height="334" key="GridCell.Tab.0.center/0.23.1920.1121/-1680.23.1680.1027@0.23.1920.1121" timestamp="1594141275601" />
+    <state width="1788" height="282" key="GridCell.Tab.0.center/0.23.1920.1123/-1680.23.1680.1027@0.23.1920.1123" timestamp="1600359818002" />
+    <state width="1788" height="282" key="GridCell.Tab.0.center/0.23.1920.1126/-1680.23.1680.1027@0.23.1920.1126" timestamp="1599969109939" />
+    <state width="1788" height="282" key="GridCell.Tab.0.left" timestamp="1600359817999">
+      <screen x="0" y="23" width="1920" height="1123" />
+    </state>
+    <state width="1867" height="436" key="GridCell.Tab.0.left/0.23.1920.1116/-1680.23.1680.1027@0.23.1920.1116" timestamp="1593827210336" />
+    <state width="1867" height="334" key="GridCell.Tab.0.left/0.23.1920.1121/-1680.23.1680.1027@0.23.1920.1121" timestamp="1594141275599" />
+    <state width="1788" height="282" key="GridCell.Tab.0.left/0.23.1920.1123/-1680.23.1680.1027@0.23.1920.1123" timestamp="1600359817999" />
+    <state width="1788" height="282" key="GridCell.Tab.0.left/0.23.1920.1126/-1680.23.1680.1027@0.23.1920.1126" timestamp="1599969109939" />
+    <state width="1788" height="282" key="GridCell.Tab.0.right" timestamp="1600359818003">
+      <screen x="0" y="23" width="1920" height="1123" />
+    </state>
+    <state width="1867" height="436" key="GridCell.Tab.0.right/0.23.1920.1116/-1680.23.1680.1027@0.23.1920.1116" timestamp="1593827210338" />
+    <state width="1867" height="334" key="GridCell.Tab.0.right/0.23.1920.1121/-1680.23.1680.1027@0.23.1920.1121" timestamp="1594141275601" />
+    <state width="1788" height="282" key="GridCell.Tab.0.right/0.23.1920.1123/-1680.23.1680.1027@0.23.1920.1123" timestamp="1600359818003" />
+    <state width="1788" height="282" key="GridCell.Tab.0.right/0.23.1920.1126/-1680.23.1680.1027@0.23.1920.1126" timestamp="1599969109940" />
+    <state width="1867" height="334" key="GridCell.Tab.1.bottom" timestamp="1594141275604">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="1867" height="334" key="GridCell.Tab.1.bottom/0.23.1920.1116/-1680.23.1680.1027@0.23.1920.1116" timestamp="1593827115147" />
+    <state width="1867" height="334" key="GridCell.Tab.1.bottom/0.23.1920.1121/-1680.23.1680.1027@0.23.1920.1121" timestamp="1594141275604" />
+    <state width="1867" height="334" key="GridCell.Tab.1.center" timestamp="1594141275604">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="1867" height="334" key="GridCell.Tab.1.center/0.23.1920.1116/-1680.23.1680.1027@0.23.1920.1116" timestamp="1593827115146" />
+    <state width="1867" height="334" key="GridCell.Tab.1.center/0.23.1920.1121/-1680.23.1680.1027@0.23.1920.1121" timestamp="1594141275604" />
+    <state width="1867" height="334" key="GridCell.Tab.1.left" timestamp="1594141275603">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="1867" height="334" key="GridCell.Tab.1.left/0.23.1920.1116/-1680.23.1680.1027@0.23.1920.1116" timestamp="1593827115145" />
+    <state width="1867" height="334" key="GridCell.Tab.1.left/0.23.1920.1121/-1680.23.1680.1027@0.23.1920.1121" timestamp="1594141275603" />
+    <state width="1867" height="334" key="GridCell.Tab.1.right" timestamp="1594141275604">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="1867" height="334" key="GridCell.Tab.1.right/0.23.1920.1116/-1680.23.1680.1027@0.23.1920.1116" timestamp="1593827115146" />
+    <state width="1867" height="334" key="GridCell.Tab.1.right/0.23.1920.1121/-1680.23.1680.1027@0.23.1920.1121" timestamp="1594141275604" />
+  </component>
+</project>

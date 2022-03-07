@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cpptest.dir/main.cpp.o CMakeFiles/cpptest.dir/openssl_test.c.o -o cpptest   -L/usr/local/Cellar/openssl@1.1/1.1.1m/lib  -Wl,-rpath,/usr/local/Cellar/openssl@1.1/1.1.1m/lib -lssl -lcrypto 
