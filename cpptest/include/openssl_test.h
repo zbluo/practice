@@ -5,7 +5,7 @@
 #ifndef CPPTEST_OPENSSL_TEST_H
 #define CPPTEST_OPENSSL_TEST_H
 #include <stdio.h>
-#include <openssl/evp.h>
+//#include <openssl/evp.h>
 
 #ifdef __cplusplus
 extern "C" {

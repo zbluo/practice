@@ -1,0 +1,57 @@
+<!-- Linux Kernel messages -->
+<group name="kernel">
+  <rule id="5103" level="9">
+    <match>Oversized packet received from</match>
+    <description>Error message from the kernel. Ping of death attack.</description>
+    <mitre>
+      <id>T1499</id>
+    </mitre>
+  </rule>
+
+  <rule id="5108" level="12">
+    <match>Out of Memory: </match>
+    <description>System running out of memory. Availability of the system is in risk.</description>
+    <mitre>
+      <id>T1499</id>
+    </mitre>
+  </rule>
+
+  <rule id="5109" level="4">
+    <match>I/O error</match>
+    <description>Kernel Input/Output error.</description>
+  </rule>
+
+  <rule id="5113" level="7">
+    <match>Kernel log daemon terminating</match>
+    <description>System is shutting down.</description>
+    <mitre>
+      <id>T1529</id>
+    </mitre>
+  </rule>
+
+  <rule id="5132" level="11">
+    <match>module verification failed</match>
+    <description>Unsigned kernel module was loaded</description>
+    <mitre>
+      <id>T1547.006</id>
+    </mitre>
+  </rule>
+
+  <rule id="5133" level="11">
+    <match>PKCS#7 signature not signed with a trusted key</match>
+    <description>Signed but untrusted kernel module was loaded</description>
+    <mitre>
+      <id>T1547.006</id>
+    </mitre>
+  </rule>
+
+  <rule id="5135" level="7">
+   <match>Disk failure</match>
+   <description>RAID disk failure</description>
+  </rule>
+
+  <rule id="5139" level="7">
+    <match>device not ready</match>
+    <description>General device failure</description>
+  </rule>
+</group> <!-- kernel -->

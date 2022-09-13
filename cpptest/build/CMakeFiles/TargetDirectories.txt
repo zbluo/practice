@@ -1,0 +1,5 @@
+/Volumes/workspace/lzb/practice/cpptest/build/CMakeFiles/edit_cache.dir
+/Volumes/workspace/lzb/practice/cpptest/build/CMakeFiles/rebuild_cache.dir
+/Volumes/workspace/lzb/practice/cpptest/build/src/CMakeFiles/cpptest.dir
+/Volumes/workspace/lzb/practice/cpptest/build/src/CMakeFiles/edit_cache.dir
+/Volumes/workspace/lzb/practice/cpptest/build/src/CMakeFiles/rebuild_cache.dir
