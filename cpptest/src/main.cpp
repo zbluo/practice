@@ -1,3 +1,4 @@
+// git: ssh-add ~/.ssh/id_ed25519_zbluo_gitlab_personal
 #include <boost/filesystem.hpp>
 #include <boost/interprocess/sync/named_mutex.hpp>
 #include <chrono>
@@ -44,7 +45,7 @@ struct st {
 };
 int main(int argc, const char **argv) {
     sockettest::test();
-    
+
     cout << sizeof(st) << endl;
     int a = -1;
     unsigned int b = 1;
