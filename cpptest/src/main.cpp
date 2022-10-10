@@ -2,6 +2,7 @@
 #include <boost/filesystem.hpp>
 #include <boost/interprocess/sync/named_mutex.hpp>
 #include <chrono>
+#include <exception>
 #include <future>
 #include <fstream>
 #include <fcntl.h>
@@ -34,22 +35,15 @@
 #include "string_search_algo/test.h"
 #include "socket_test/socket_test.h"
 
-using namespace std;
-using namespace boost::filesystem;
-using namespace boost::interprocess;
-using namespace Json;
-struct st {
-    int b;
-    long a;
-    unsigned c;
-};
 int main(int argc, const char **argv) {
-    sockettest::test();
-
-    cout << sizeof(st) << endl;
-    int a = -1;
-    unsigned int b = 1;
-    if ( a < b) cout << a << "is smaller than " << b << endl;
-    else cout << a << " is bigger than " << b << endl;
+    try {
+        std::string dir = "no dir";
+        throw std::runtime_error("my errors" + dir);
+        throw "hi";
+    } catch(std::runtime_error e) {
+        std::cout << e.what() << std::endl;
+    } catch(...) {
+        std::cout << "other exception" << std::endl;
+    }
     return 0;
 }

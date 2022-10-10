@@ -4,6 +4,7 @@
 #include <sys/un.h>
 #include <chrono>
 #include <thread>
+#include <boost/filesystem.hpp>
 
 namespace sockettest 
 {
@@ -13,9 +14,7 @@ static size_t COUNT = 10;
 void client() {
         std::string socketPath = TestSocketPath;
         int sock = 0;
-        int dataLen = 0;
         struct sockaddr_un remote;
-        char recvMsg[1024];
 
         if((sock = socket(AF_UNIX, SOCK_DGRAM, 0)) == -1) {
             std::cout << "failed to create socket" << std::endl;
@@ -29,11 +28,19 @@ void client() {
         strncpy(remote.sun_path, socketPath.c_str(), socketPath.size());
 
         int i = 0;
-        std::this_thread::sleep_for(std::chrono::seconds(1));
+        
+        boost::filesystem::path tmpFilePath(socketPath);
+        while(!boost::filesystem::exists(tmpFilePath)) {
+            std::this_thread::sleep_for(std::chrono::milliseconds(100));
+        }
+        
         std::cout << "start to send message" << std::endl;
         while(++i <= COUNT) {
             std::string msg = "hello " + std::to_string(i);
-            sendto(sock, msg.c_str(), msg.size(), 0, (struct sockaddr *) &remote, sizeof(struct sockaddr_un));
+            size_t cnt = 0;
+            do {
+                cnt = sendto(sock, msg.c_str(), msg.size(), 0, (struct sockaddr *) &remote, sizeof(struct sockaddr_un));
+            } while(cnt < msg.size());
         }
         return;
 }
@@ -54,7 +61,7 @@ void server() {
         if(sizeof(remote.sun_path) < socketPath.size()) {
             exit(EXIT_FAILURE);
         }
-        strcpy(remote.sun_path, socketPath.c_str());
+        strncpy(remote.sun_path, socketPath.c_str(), socketPath.size());
 
         if(bind(sock, (struct sockaddr*) &remote, sizeof(struct sockaddr_un)) == -1) {
             std::cout << "failed to bind socket:" << std::endl;
@@ -76,6 +83,9 @@ void server() {
                 break;
             }
         }
+
+        close(sock);
+        boost::filesystem::remove(boost::filesystem::path(socketPath));
         return;
 }
 void test() {
