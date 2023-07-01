@@ -8,12 +8,12 @@ go run . or go build .
 package main
 
 import (
-	"github.com/rs/zerolog"
-	"github.com/rs/zerolog/log"
+	"fmt"
+	//"practice/exercise/dpe"
+	"practice/exercise/mycrypto"
 )
 
 func main() {
-	zerolog.TimeFieldFormat = zerolog.TimeFormatUnix
-
-	log.Print("Start...")
+	mycrypto.AesTest()
+	fmt.Print("The end....\n")
 }
