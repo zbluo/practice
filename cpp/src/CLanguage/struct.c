@@ -19,11 +19,12 @@ STRUCT_2 myst2 = {{11, 22}, NULL};
 
 int do_sth(STRUCT_2 *st2) {
     printf("\n%d\n", st2->i[0]);
+    return 0;
 }
 
 STRUCT_1 st1 = {{'a', 'b'}, do_sth};
 
-int test(int argc, char *argv[])
+void test(int argc, char *argv[])
 {
     st1.init(&myst2);
 }

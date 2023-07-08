@@ -1,4 +1,6 @@
+// git: eval "$(ssh-agent -s)"
 // git: ssh-add ~/.ssh/id_ed25519_zbluo_gitlab_personal
+
 #include <boost/filesystem.hpp>
 #include <boost/filesystem/fstream.hpp>
 #include <boost/interprocess/sync/named_mutex.hpp>
@@ -34,14 +36,13 @@
 
 #include "socket_test/socket_test.h"
 #include "posix_semaphore/test.h"
+#include "leetcode/LeetCode.h"
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
-
-    // #include "string_search_algo/match.h"
-
+#include "CLanguage/read_write_lock.h"
 #ifdef __cplusplus
 }
 #endif
@@ -49,5 +50,6 @@ extern "C"
 int main(int argc, const char **argv)
 {
     std::cout << "Test start......" << std::endl;
+    lt_test();
     return 0;
 }
