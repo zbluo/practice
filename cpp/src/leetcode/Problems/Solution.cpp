@@ -1,4 +1,5 @@
 ﻿#include "Solution.h"
+#include <climits>
 
 static int testofstatic3 = 0;
 

@@ -1,4 +1,4 @@
-set(PRJ_NAME cpp)
+set(PRJ_NAME cpptest)
 project(${PRJ_NAME})
 cmake_minimum_required(VERSION 3.16)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})

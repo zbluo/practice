@@ -7,6 +7,7 @@
 #include <iostream>
 #include <queue>
 #include <chrono>
+#include <atomic>
 
 class condvarQueue
 {

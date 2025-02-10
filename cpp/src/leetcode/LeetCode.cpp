@@ -2,6 +2,8 @@
 //
 
 #include "LeetCode.h"
+#include <condition_variable>
+#include <climits>
 
 mutex m;
 condition_variable cond;
